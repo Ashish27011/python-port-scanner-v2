@@ -1,0 +1,8 @@
+Checked Port Report: 
+
+Target Address: ho.com
+Total Port Checked: 2
+Total Open Ports: 0
+Open Port List: 
+
+[]

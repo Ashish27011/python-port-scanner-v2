@@ -1,0 +1,10 @@
+def show_report(target_address, result, count_port, port_file):
+    gen_report = open("port_scanner_v2.py/output/report.txt", "w")
+    gen_report.write("Checked Port Report: \n")
+    gen_report.write("\n")
+    gen_report.write("Target Address: " + str(target_address)+ "\n")
+    gen_report.write("Total Port Checked: " + str(result)+ "\n")
+    gen_report.write("Total Open Ports: " + str(count_port)+ "\n")  
+    gen_report.write("Open Port List: \n\n")  
+    gen_report.write(str(port_file)+ "\n") 
+    gen_report.close()       
